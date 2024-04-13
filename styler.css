@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* Media Query 1 */
+@import url("FluidStyle.css") only screen and (min-width:300px) and (max-width:768px);
+
+/* CSS Document */
+
+.Heading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #009;
+}
+.Text {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	-webkit-transition: all;
+	-moz-transition: all;
+	-ms-transition: all;
+	-o-transition: all;
+	transition: all;
+	color: #67308E;
+}
+.text_ckd {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #666;
+	text-decoration: line-through;
+}
+#warning {
+	color: #F00;
+}
